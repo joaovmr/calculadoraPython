@@ -8,7 +8,7 @@ def multiplication(a, b):
     return a * b
 
 def division(a, b):
-    return division(4,2) == 2
+    return a/b
 
 def equal(a,b):
     return a == b
