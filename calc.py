@@ -40,7 +40,7 @@ def test_divisionZero():
 def test_subtractAdd():
     assert (subtract(3,4) + add(3,4)) == 6
 
-def test_subtractAdd():
-    assert (equal((subtract(3,4) + add(3,4),6))) == True
+def test_equalOnOthers():
+    assert equal(multiplication(2,4),8) == True
 
 
